@@ -189,6 +189,13 @@ footer .social img{
     text-align: center;
     display: block;
 }
+#thumbs-img{
+    width: 95%;
+    margin: auto;
+    z-index: -1;
+    display: block;
+    margin-top: 20px;
+}
 
 
 @media screen and (max-width: 900px) {
