@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.home-grid{
+    display: grid;
+    grid-template-columns:repeat(10, minmax(0, 1fr));
+    font-family: 'Open Sans', sans-serif;
+}
+.london{
+    width: 90%;
+    grid-column: 6/10;
+}
+.button{
+    background: blue;
+    font-family: 'Open Sans', sans-serif;
+}
+.sign{
+    color: navy;
+}
+.pass{
+    margin-top: -20px;
+    font-weight: lighter;
+}
+.name{
+    font-weight: bolder;
+    margin-top: 50px;
+}
